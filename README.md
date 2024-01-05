@@ -14,10 +14,10 @@ Call the `edgedns-primary` module within your TF code:
 ```
 module "property-ion" {
   source  = "jaescalo/edgedns-primary/akamai"
-  version = "1.3.0"
+  version = "1.1.0"
 
   edgerc_location     = var.edgerc_location
-  edgerc_section      = var.edger_section
+  edgerc_section      = var.edgerc_section
   group_name          = var.group_name
   dns_zone            = var.dns_zone
   ns_servers          = var.ns_servers
